@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+.navbar {
+    background-color: #adadad;
+    color: #ffffff;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: 0 0 13px rgb(0 0 0);
+    text-decoration: none !important;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 30px;
+    color: #ffffff !important;
+}
+
+.navbar a {
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+.navbar a:hover,
+.navbar a:active {
+    background-color: #8b8b8b;
+}
+
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #333333;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 1.0em;
+    margin: 0;
+}
+
+.email {
+    font-size: 1.0em;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin-top: 6%;
+    margin-left: 10%;
+    padding: 20px;
+  }
+  
+  .container {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .textcontainer {
+    text-align: center;
+  }
+  
+  .text {
+    margin-top: 10px;
+  }
+  
+  .cookies {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .imgcontainer img {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  .formInput {
+    display: inline-block;
+  }
+  
+  label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
